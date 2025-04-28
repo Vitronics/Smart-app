@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmi calculator</title>
+   
+</head>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="bmi-container">
+    <div class="header">
+    
+    <h1 style="text-align: center;">VITRONICS BMI calculator </h1>
+</div>
+<!-- <hr> -->
+  <div class="bmi-body" id="bmi">
+  <label class="label" for="weight">weight (kg)</label>
+        <input class="inputs" type="number" id="weight" placeholder="Enter weight">
+    
+   <label  class="label" for="height">Height (cm)</label>
+   <input class="inputs" type="number" id="height" placeholder="Enter Height">
+
+   <button id="calcbtn" onclick="calculateBMI()">Calculate BMI</button>
+   <div id="result"></div>
+   <div>
+    <a href="more.html"> <button id="cancel">CANCEL</button></a>
+  </div>
+</div>
+
+<footer>
+    <p>&copy; 2024-<span id="copy"></span> Vitronics technologies Services. All rights reserved.</p>
+    
+</footer>
+
+
+<script>
+    document.getElementById('copy').textContent = new Date().getFullYear();
+ 
+ </script>
+ </div>
+    <script src="bmi.js"></script>
+</body>
+</html>

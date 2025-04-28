@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency-converter</title>
+</head>
+<body>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="container">
+    <div class="currency-header">
+    <h1 class="heading-1">VITRONICS CURRENCY converter<span></span> </h1>
+   </div>
+   <div class="currency-body" id="currencyBody">
+    
+   
+    <div id="widget-container">
+        <div id="widget-loading" >
+          Loading Widget...
+        </div>
+      
+        <iframe
+          title="fx"
+          src="https://wise.com/gb/currency-converter/fx-widget/converter?sourceCurrency=GBP&targetCurrency=EUR"
+          height="400"
+          width="300"
+          frameBorder="0"
+          allowtransparency="true"
+          onload="document.getElementById('widget-loading').style.display='none';"
+        ></iframe>
+      
+      
+  
+  <div>
+    <a href="more.html"> <button id="cancel">CANCEL</button></a>
+  </div>
+</div>
+   </div>
+   <footer class="currency-footer">
+    <p>&copy; 2024-<span id="copy"></span> Vitronics technologies Services. All rights reserved.</p>
+    
+</footer>
+
+
+<script>
+    document.getElementById('copy').textContent = new Date().getFullYear();
+ </script>
+    <script src="currency.js"></script>
+</body>
+</html>

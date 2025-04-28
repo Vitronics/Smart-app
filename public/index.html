@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="container">
+    <div class="header">
+       
+    <h1>VITRONICS <span>calculator</span> </h1>
+   
+    <div class="icon"> <a href="more.html"><img src="/img/forward.PNG"  style="width:50px ;"></a>  </div>
+   
+   </div>
+        <div class="display" id="display">0</div>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="clear" onclick="clearDisplay()">C</td>
+                </tr>
+                
+                <tr >
+                    <td onclick="appendToDisplay('1')">1</td>
+                    <td  onclick="appendToDisplay('2')">2</td>
+                    <td  onclick="appendToDisplay('3')">3</td>
+                    <td  class="operator" onclick="appendToDisplay('+')">+</td>
+                </tr>
+
+                <tr>
+                    <td  onclick="appendToDisplay('4')">4</td>
+                    <td  onclick="appendToDisplay('5')">5</td>
+                    <td  onclick="appendToDisplay('6')">6</td>
+                    <td class="operator"  onclick="appendToDisplay('-')">-</td>
+                
+                <tr>
+                    <td  onclick="appendToDisplay('7')">7</td>
+                    <td  onclick="appendToDisplay('8')">8</td>
+                    <td  onclick="appendToDisplay('9')">9</td>
+                    <td  class="operator"  onclick="appendToDisplay('÷')">÷</td>
+                   
+              
+                <tr>
+                    <td  onclick="appendToDisplay('0')">0</td>
+                    <td onclick="appendToDisplay('.')">.</td>
+                     <td class="result" onclick="calculate()">=</td>
+                     <td class="operator"  onclick="appendToDisplay('*')">*</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
