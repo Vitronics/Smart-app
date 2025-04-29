@@ -298,8 +298,8 @@ iframe{
 #widget-loading{
       margin: 10px auto;
           border-radius: 15px;
-           height:350px;
-          width:300px;
+           height:250px;
+          width:250px;
           display: flex;
           justify-content: center;
           align-items: center;
