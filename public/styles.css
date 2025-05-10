@@ -128,8 +128,9 @@ td{
  
 }
 span{
-    font-style: italic;
-    font-family: cursive;
+    font-style:bold ;
+    font-family: ;
+   color:magenta ;
 }
 td:hover{
     background-color:  #f0f0f0;
