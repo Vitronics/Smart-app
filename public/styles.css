@@ -274,9 +274,11 @@ td:hover{
 }
 .overweight{
     background: #f1470f;
+   color:white;
 }
 .obese{
     background: #f1220f;
+   color:white;
 }
 
 iframe{
