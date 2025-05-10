@@ -1,4 +1,4 @@
-body{
+webody{
    height: 100vh;
    background: linear-gradient(135deg, #fffde4 0%, #005aa7 100%);
     color:rebeccapurple;
@@ -129,8 +129,8 @@ td{
 }
 span{
     font-style:bold ;
-    font-family: ;
-   color:magenta ;
+    font-family: sans serif;
+   color:;
 }
 td:hover{
     background-color:  #f0f0f0;
@@ -262,7 +262,7 @@ td:hover{
   }
   
   #fullAge .highlight {
-    color: #0055a5;
+    color: magenta;
     font-weight: bold;
     font-size: 23px;
   }
